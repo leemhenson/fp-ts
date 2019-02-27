@@ -15,7 +15,7 @@ import { MonadTask3 } from './MonadTask'
 
 const readerTTaskEither = readerT.getReaderT(taskEither.taskEither)
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT3<U, L, A> {
     ReaderTaskEither: ReaderTaskEither<U, L, A>
   }

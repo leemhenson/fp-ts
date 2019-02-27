@@ -7,7 +7,7 @@ import { Comonad2 } from './Comonad'
 import { Either } from './Either_'
 import { Foldable2v2 } from './Foldable2v'
 import { phantom, toString } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monad2C } from './Monad'
 import { Monoid } from './Monoid'
 import { contramap as contramapOrd, getSemigroup as getOrdSemigroup, Ord } from './Ord'
@@ -18,7 +18,7 @@ import { Traversable2v2 } from './Traversable2v'
 
 // Adapted from https://github.com/purescript/purescript-tuples
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Tuple: Tuple<L, A>
   }

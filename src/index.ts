@@ -76,7 +76,7 @@ import * as group from './Group'
 export { group }
 import * as heytingAlgebra from './HeytingAlgebra'
 export { heytingAlgebra }
-import * as hkt from './HKT'
+import * as hkt from './HKTv14_1'
 export { hkt }
 import * as identity from './Identity'
 export { identity }

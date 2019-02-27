@@ -7,7 +7,7 @@ import { Foldable2v1 } from './Foldable2v'
 import { FoldableWithIndex1 } from './FoldableWithIndex'
 import { Predicate, Refinement, tuple } from './function'
 import { FunctorWithIndex1 } from './FunctorWithIndex'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monoid } from './Monoid'
 import { Option } from './Option_'
 import * as R from './Record'
@@ -19,7 +19,7 @@ import { Witherable1 } from './Witherable'
 
 // https://github.com/purescript/purescript-maps
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     StrMap: StrMap<A>
   }

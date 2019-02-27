@@ -30,7 +30,7 @@ import { Predicate, phantom } from './function'
 import { Option } from './Option_'
 import { Witherable2C } from './Witherable'
 import { Applicative } from './Applicative'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Validation } from './Validation'
 
 export const chainRec = <L, A, B>(a: A, f: (a: A) => Either<L, Either<A, B>>): Either<L, B> => {

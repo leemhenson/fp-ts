@@ -5,13 +5,13 @@ import { Comonad1 } from './Comonad'
 import { Either } from './Either_'
 import { Foldable2v1 } from './Foldable2v'
 import { Lazy, toString } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monad1 } from './Monad'
 import { Monoid } from './Monoid'
 import { Setoid, fromEquals } from './Setoid'
 import { Traversable2v1 } from './Traversable2v'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Identity: Identity<A>
   }

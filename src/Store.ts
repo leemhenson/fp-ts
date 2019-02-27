@@ -1,9 +1,9 @@
 import { Comonad2 } from './Comonad'
 import { Functor, Functor2, Functor3 } from './Functor'
-import { HKT, HKT2, HKT3, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, HKT2, HKT3, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Endomorphism, toString } from './function'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Store: Store<L, A>
   }

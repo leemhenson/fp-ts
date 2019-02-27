@@ -1,6 +1,6 @@
 import { Applicative, Applicative1, Applicative2, Applicative2C, Applicative3, Applicative3C } from './Applicative'
 import { Chain, Chain1, Chain2, Chain2C, Chain3, Chain3C } from './Chain'
-import { URIS, URIS2, URIS3 } from './HKT'
+import { URIS, URIS2, URIS3 } from './HKTv14_1'
 
 /**
  * The `Monad` type class combines the operations of the {@link Chain} and

@@ -1,7 +1,7 @@
 import { constant, constIdentity } from './function'
 import { Monad2 } from './Monad'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     State: State<L, A>
   }

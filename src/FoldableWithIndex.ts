@@ -16,7 +16,7 @@ import {
   Foldable2vComposition22C,
   Foldable2vComposition3C1
 } from './Foldable2v'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monoid } from './Monoid'
 
 /**

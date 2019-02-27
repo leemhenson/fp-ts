@@ -15,7 +15,7 @@ import {
 import { Comonad1 } from './Comonad'
 import { Foldable2v1 } from './Foldable2v'
 import { compose, toString, Refinement, Predicate } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monad1 } from './Monad'
 import { Monoid } from './Monoid'
 import { none, Option, some } from './Option_'
@@ -26,7 +26,7 @@ import { FunctorWithIndex1 } from './FunctorWithIndex'
 import { FoldableWithIndex1 } from './FoldableWithIndex'
 import { TraversableWithIndex1 } from './TraversableWithIndex'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     NonEmptyArray: NonEmptyArray<A>
   }

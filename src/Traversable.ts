@@ -21,7 +21,7 @@ import {
   FunctorComposition11,
   getFunctorComposition
 } from './Functor'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 
 /**
  * Use {@link Traversable2v}

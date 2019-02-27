@@ -8,7 +8,7 @@ import { Foldable2v1 } from './Foldable2v'
 import { FoldableWithIndex1 } from './FoldableWithIndex'
 import { concat, Endomorphism, identity, Predicate, Refinement, tuple } from './function'
 import { FunctorWithIndex1 } from './FunctorWithIndex'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monad1 } from './Monad'
 import { Monoid } from './Monoid'
 import { none, Option, some } from './Option_'
@@ -30,7 +30,7 @@ declare global {
   }
 }
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Array: Array<A>
   }

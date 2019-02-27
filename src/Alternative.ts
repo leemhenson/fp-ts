@@ -1,5 +1,5 @@
 import { Applicative, Applicative1, Applicative2, Applicative2C, Applicative3, Applicative3C } from './Applicative'
-import { URIS, URIS2, URIS3 } from './HKT'
+import { URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Plus, Plus1, Plus2, Plus2C, Plus3, Plus3C } from './Plus'
 
 /**

@@ -1,7 +1,7 @@
 import { Applicative, Applicative1, Applicative2, Applicative3 } from './Applicative'
 import { Chain, Chain1, Chain2, Chain3 } from './Chain'
 import { Functor, Functor1, Functor2, Functor3 } from './Functor'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monad, Monad1, Monad2, Monad3 } from './Monad'
 import { Reader } from './Reader'
 

@@ -2,7 +2,7 @@ import { Applicative, Applicative1 } from './Applicative'
 import { Comonad1 } from './Comonad'
 import { Foldable2v1 } from './Foldable2v'
 import { Endomorphism } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monoid } from './Monoid'
 import { Ord, fromCompare } from './Ord'
 import { semigroupOrdering } from './Ordering'
@@ -12,7 +12,7 @@ import { Traversable2v1 } from './Traversable2v'
 
 // Adapted from https://github.com/parsonsmatt/purescript-pair
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Pair: Pair<A>
   }

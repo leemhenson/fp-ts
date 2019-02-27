@@ -5,7 +5,7 @@ import { FilterableWithIndex2C } from './FilterableWithIndex'
 import { Foldable2v2C, Foldable2v3, Foldable2v2, Foldable2v1, Foldable2v } from './Foldable2v'
 import { FoldableWithIndex2C } from './FoldableWithIndex'
 import { Predicate, phantom, tuple } from './function'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monoid } from './Monoid'
 import { Option, none, some } from './Option_'
 import { Ord } from './Ord'
@@ -19,7 +19,7 @@ import { Functor2 } from './Functor'
 import { Traversable2v2C } from './Traversable2v'
 import { Filterable2 } from './Filterable_'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Map: Map<L, A>
   }

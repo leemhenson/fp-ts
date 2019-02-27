@@ -4,7 +4,7 @@ import { IO } from './IO_'
 import { Monoid } from './Monoid'
 import { Semigroup } from './Semigroup_'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Task: Task<A>
   }

@@ -4,7 +4,7 @@ import { Either } from './Either_'
 import { Foldable2v2 } from './Foldable2v'
 import { phantom, toString } from './function'
 import { Functor2 } from './Functor'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monad2C } from './Monad'
 import { Monoid } from './Monoid'
 import { none, Option, some } from './Option_'
@@ -14,7 +14,7 @@ import { Traversable2v2 } from './Traversable2v'
 
 // Adapted from https://github.com/purescript-contrib/purescript-these
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     These: These<L, A>
   }

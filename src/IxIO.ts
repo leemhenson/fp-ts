@@ -3,7 +3,7 @@ import { IxMonad3 } from './IxMonad'
 import { Monad3C } from './Monad'
 import { phantom } from './function'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT3<U, L, A> {
     IxIO: IxIO<U, L, A>
   }

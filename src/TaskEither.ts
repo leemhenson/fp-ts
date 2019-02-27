@@ -19,7 +19,7 @@ import { Semigroup } from './Semigroup_'
 import { fromIO as taskFromIO, getSemigroup as taskGetSemigroup, Task, task, tryCatch as taskTryCatch } from './Task'
 import { MonadTask2 } from './MonadTask'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     TaskEither: TaskEither<L, A>
   }

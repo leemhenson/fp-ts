@@ -3,7 +3,7 @@ import { array, cons, drop, empty, isEmpty, isOutOfBound, snoc, take } from './A
 import { Comonad1 } from './Comonad'
 import { Foldable2v1 } from './Foldable2v'
 import { decrement, increment, toString } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monoid } from './Monoid'
 import { NonEmptyArray } from './NonEmptyArray'
 import { none, Option, some } from './Option_'
@@ -18,7 +18,7 @@ import { Traversable2v1 } from './Traversable2v'
   - https://github.com/scalaz/scalaz/blob/series/7.3.x/core/src/main/scala/scalaz/Zipper.scala
 */
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Zipper: Zipper<A>
   }

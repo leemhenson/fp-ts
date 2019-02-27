@@ -7,7 +7,7 @@ import { Filterable2C } from './Filterable_'
 import { Foldable2v2 } from './Foldable2v'
 import { phantom, Predicate, toString, Refinement } from './function'
 import { Functor2 } from './Functor'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monad2C } from './Monad'
 import { Monoid } from './Monoid'
 import { Option } from './Option_'
@@ -18,7 +18,7 @@ import { Witherable2C } from './Witherable'
 
 // Adapted from https://github.com/purescript/purescript-validation
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Validation: Validation<L, A>
   }

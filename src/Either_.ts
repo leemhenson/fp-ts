@@ -1,12 +1,12 @@
 import { Applicative } from './Applicative'
 import { Lazy, Predicate, Refinement, toString } from './function'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Monoid } from './Monoid'
 import { Option } from './Option_'
 import { Semigroup } from './Semigroup_'
 import { Setoid, fromEquals } from './Setoid'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Either: Either<L, A>
   }

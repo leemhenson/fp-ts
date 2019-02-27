@@ -12,7 +12,7 @@ import {
   getApplicativeComposition
 } from './Applicative'
 import { Functor, Functor1, Functor2, Functor2C, Functor3C } from './Functor'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monad, Monad1, Monad2, Monad2C, Monad3C } from './Monad'
 import { Option, URI, none as optionNone, option, some as optionSome } from './Option'
 

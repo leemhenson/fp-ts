@@ -2,7 +2,7 @@ import { Monoid } from './Monoid'
 import { Semigroup } from './Semigroup_'
 import { Lazy, constIdentity, toString, constant } from './function'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     IO: IO<A>
   }

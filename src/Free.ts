@@ -1,7 +1,7 @@
 // adapted from http://okmij.org/ftp/Computation/free-monad.html
 // and https://github.com/purescript/purescript-free
 
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monad, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad'
 import { toString } from './function'
 
@@ -9,7 +9,7 @@ export const URI = 'Free'
 
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Free: Free<L, A>
   }

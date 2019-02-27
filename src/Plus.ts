@@ -1,5 +1,5 @@
 import { Alt, Alt1, Alt2, Alt2C, Alt3, Alt3C } from './Alt'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 
 /**
  * The `Plus` type class extends the {@link Alt} type class with a value that should be the left and right identity for `alt`.

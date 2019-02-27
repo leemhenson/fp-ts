@@ -1,5 +1,5 @@
 import { Either } from './Either_'
-import { HKT2, Type2, Type3, URIS2, URIS3, URIS4, Type4 } from './HKT'
+import { HKT2, Type2, Type3, URIS2, URIS3, URIS4, Type4 } from './HKTv14_1'
 import { Profunctor, Profunctor2, Profunctor3, Profunctor4 } from './Profunctor'
 import { Category, Category2, Category3 } from './Category'
 import { identity } from './function'

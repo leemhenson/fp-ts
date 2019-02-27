@@ -9,7 +9,7 @@ import {
 } from './Applicative'
 import { Either, URI, either, left as eitherLeft, right as eitherRight } from './Either'
 import { Functor, Functor1, Functor2 } from './Functor'
-import { HKT, Type, Type2, URIS, URIS2 } from './HKT'
+import { HKT, Type, Type2, URIS, URIS2 } from './HKTv14_1'
 import { Monad, Monad1, Monad2 } from './Monad'
 
 export interface EitherT<F> extends ApplicativeComposition<F, URI> {

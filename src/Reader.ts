@@ -8,7 +8,7 @@ import { Either, left as eitherLeft, right as eitherRight } from './Either_'
 import { Semigroup } from './Semigroup_'
 import { Monoid } from './Monoid'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Reader: Reader<L, A>
   }

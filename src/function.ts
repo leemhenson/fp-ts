@@ -1,4 +1,4 @@
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 
 /**
  * @since 1.0.0

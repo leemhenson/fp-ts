@@ -4,7 +4,7 @@ import { Monoid } from './Monoid'
 import { Semigroup } from './Semigroup_'
 import { phantom, tuple } from './function'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Writer: Writer<L, A>
   }

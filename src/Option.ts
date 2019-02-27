@@ -31,7 +31,7 @@ import {
 } from './Option_'
 import { Predicate, not } from './function'
 import { Applicative } from './Applicative'
-import { HKT } from './HKT'
+import { HKT } from './HKTv14_1'
 import { Either } from './Either_'
 
 const separate = <RL, RR>(fa: Option<Either<RL, RR>>): Separated<Option<RL>, Option<RR>> => {

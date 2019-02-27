@@ -1,5 +1,5 @@
 import { Apply, Apply1, Apply2, Apply2C, Apply3, Apply3C } from './Apply'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 
 /**
  * The `Chain` type class extends the {@link Apply} type class with a `chain` operation which composes computations in

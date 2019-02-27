@@ -9,7 +9,7 @@ import {
   FunctorWithIndex3,
   FunctorWithIndex3C
 } from './FunctorWithIndex'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Option } from './Option_'
 
 /**

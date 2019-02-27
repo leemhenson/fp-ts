@@ -7,7 +7,7 @@ import { Semigroup } from './Semigroup_'
 import { Setoid, fromEquals } from './Setoid'
 import { phantom, toString } from './function'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     Const: Const<L, A>
   }

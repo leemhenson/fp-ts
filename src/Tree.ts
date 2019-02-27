@@ -3,13 +3,13 @@ import { getSetoid as getArraySetoid, traverse as arrayTraverse, empty } from '.
 import { Comonad1 } from './Comonad'
 import { Foldable2v1 } from './Foldable2v'
 import { concat, identity, toString } from './function'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Monad, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad'
 import { Monoid } from './Monoid'
 import { Setoid, fromEquals } from './Setoid'
 import { Traversable2v1 } from './Traversable2v'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     Tree: Tree<A>
   }

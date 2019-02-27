@@ -1,7 +1,7 @@
 import { Applicative, Applicative1, Applicative2, Applicative3 } from './Applicative'
 import { liftA2 } from './Apply'
 import { Functor, Functor1, Functor2, Functor2C, Functor3, Functor3C } from './Functor'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { constant, tupleCurried } from './function'
 
 /**

@@ -1,5 +1,5 @@
 import { Applicative, Applicative1, Applicative2, Applicative2C, Applicative3, Applicative3C } from './Applicative'
-import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKT'
+import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 } from './HKTv14_1'
 import { Option, none, option } from './Option'
 import { Traversable, Traversable1, sequence } from './Traversable'
 import { constant, tuple } from './function'

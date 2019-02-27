@@ -6,7 +6,7 @@ import { IO, io } from './IO'
 import { Lazy, constIdentity, constant } from './function'
 import { Alt2 } from './Alt'
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT2<L, A> {
     IOEither: IOEither<L, A>
   }

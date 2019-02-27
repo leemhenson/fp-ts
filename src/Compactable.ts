@@ -1,5 +1,5 @@
 import { Functor, Functor1, Functor2, Functor2C, Functor3C, getFunctorComposition } from './Functor'
-import { URIS, URIS2, URIS3 } from './HKT'
+import { URIS, URIS2, URIS3 } from './HKTv14_1'
 import { fromEither, none, some } from './Option'
 import {
   CompactableComposition3C1,

@@ -6,7 +6,7 @@ import { Monad1 } from './Monad'
 
 // Adapted from https://hackage.haskell.org/package/free-algebras-0.0.7.0/docs/Data-Group-Free.html
 
-declare module './HKT' {
+declare module './HKTv14_1' {
   interface URI2HKT<A> {
     FreeGroup: FreeGroup<A>
   }
